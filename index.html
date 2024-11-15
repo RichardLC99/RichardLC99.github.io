@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corazón te extraño</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>🌖👉🏼❤️👈🏼🌒</h1>
+    </div>
+    <div class="container">
+        <div class="card" onclick="showMessage(this)">
+            <h2>Lo siento</h2>
+            <p class="hidden">Lamento mucho el inconveniente que causé...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Perdón</h2>
+            <p class="hidden">Espero que puedas perdonarme por...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Mis disculpas</h2>
+            <p class="hidden">No fue mi intención lastimarte con...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Lo siento</h2>
+            <p class="hidden">Lo siento por cualquier inconveniente...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Perdón</h2>
+            <p class="hidden">Espero puedas perdonarme por esto...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Mis disculpas</h2>
+            <p class="hidden">Lamento lo ocurrido...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Lo siento</h2>
+            <p class="hidden">Lamento mi error...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Perdón</h2>
+            <p class="hidden">Por favor, discúlpame...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Mis disculpas</h2>
+            <p class="hidden">No quise hacerlo...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Lo siento</h2>
+            <p class="hidden">Espero puedas entender...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Perdón</h2>
+            <p class="hidden">Fue un accidente...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Mis disculpas</h2>
+            <p class="hidden">Perdóname por esto...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Lo siento</h2>
+            <p class="hidden">Lo lamento mucho...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Perdón</h2>
+            <p class="hidden">Espero puedas perdonarme...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Mis disculpas</h2>
+            <p class="hidden">Lo siento profundamente...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Lo siento</h2>
+            <p class="hidden">No fue mi intención...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Perdón</h2>
+            <p class="hidden">Lamento el inconveniente...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Mis disculpas</h2>
+            <p class="hidden">Discúlpame por esto...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Lo siento</h2>
+            <p class="hidden">Perdóname, por favor...</p>
+        </div>
+        <div class="card" onclick="showMessage(this)">
+            <h2>Perdón</h2>
+            <p class="hidden">No fue intencional...</p>
+        </div>
+    </div>
+    <div id="message-panel" class="message-panel hidden">
+        <h2>Mensaje</h2>
+        <p id="message-content"></p>
+        <button onclick="hideMessage()">Cerrar</button>
+    </div>
+    <div class="image-container">
+        <img src="qr1.jpg" alt="Imagen 1" onclick="showModal(this)"> 
+        <img src="qr2.jpg" alt="Imagen 2" onclick="showModal(this)"> 
+        <img src="qr1.jpg" alt="Imagen 3" onclick="showModal(this)">
+    </div>
+    <div id="image-modal" class="modal hidden" onclick="hideModal()"> 
+        <span class="close">&times;</span> 
+        <img class="modal-content" id="modal-img"> 
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
